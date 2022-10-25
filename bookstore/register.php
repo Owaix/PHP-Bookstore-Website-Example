@@ -65,9 +65,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 												}else{
 													$address = $_POST['address'];
 
-													$servername = "localhost";
-													$username = "root";
-													$password = "";
+												$servername = "ls-d1b6e3de08e34395cddc4f6774238bd258ceb4eb.c6uay4qn3ulx.ap-southeast-1.rds.amazonaws.com";
+	$username = "owaix";
+	$password = "Ziawospmahc1";
 
 													$conn = new mysqli($servername, $username, $password); 
 
