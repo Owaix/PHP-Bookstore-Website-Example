@@ -33,9 +33,9 @@ session_start();
 	}
 
 	if(isset($_POST['delc'])){
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
+		$servername = "ls-d1b6e3de08e34395cddc4f6774238bd258ceb4eb.c6uay4qn3ulx.ap-southeast-1.rds.amazonaws.com";
+	$username = "owaix";
+	$password = "Ziawospmahc1";
 
 		$conn = new mysqli($servername, $username, $password);
 
@@ -50,9 +50,9 @@ session_start();
 		$conn->query($sql);
 	}
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$servername = "ls-d1b6e3de08e34395cddc4f6774238bd258ceb4eb.c6uay4qn3ulx.ap-southeast-1.rds.amazonaws.com";
+	$username = "owaix";
+	$password = "Ziawospmahc1";
 
 	$conn = new mysqli($servername, $username, $password);
 
